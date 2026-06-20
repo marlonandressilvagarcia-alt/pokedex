@@ -3,17 +3,36 @@
     padding: 0;
 }
 body{
-    background-color: lightgray;
+    background-color: rgb(3, 3, 57);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 section{
     align-items: center;
+    text-align: center;
     justify-content: center;
-    background-color: white;
-    width: 700px;
+    background-color: rgb(0, 119, 255);
+    width: 50%;
     border-radius: 10px;
     margin: 5px;
     padding: 10px;
+    
+}
+#pokemon-info{
+    background-color: rgb(200, 208, 214);
+    padding: 10px;
+    margin-top: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    color: rgb(57, 54, 54);
+}
+ul{
+    list-style-position: inside;
+}
+@media(max-width:900px){
+    section{
+        width: auto;
+    }
 }
